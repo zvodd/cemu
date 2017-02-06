@@ -932,7 +932,7 @@ _start:
         wid.setMinimumWidth(800)
         wid.setLayout(grid)
         msgbox.layout().addWidget(wid)
-        msgbox.exec()
+        msgbox.exec_()
         return
 
     def showAboutPopup(self):
@@ -979,7 +979,7 @@ Thanks for using <b>CEMU</b>.
         msgbox.setTextFormat(Qt.RichText)
         msgbox.setText(desc)
         msgbox.setStandardButtons(QMessageBox.Ok)
-        msgbox.exec()
+        msgbox.exec_()
         return
 
 
